@@ -4,28 +4,35 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use function Ramsey\Uuid\v1;
+
 class FuncionariosController extends Controller
 {
     public function mostrar()
     {
-    return "Gerenciamento de funcionários.";
+        return view('mostrar');
     }
+    public function Novo()
+    {
+        return view('Novo');
+    }
+    
     
     public function Adicionar()
     {
-    return "Gerenciamento de funcionários.";
+        return view('adicionar');
     }
     public function Editar()
     {
-    return "Gerenciamento de funcionários.";
+        return view('editar');
     }
     public function Atualizar()
     {
-    return "Gerenciamento de funcionários.";
+        return view('atualizar');
     }
     public function Excluir()
     {
-    return "Gerenciamento de funcionários.";
+        return view('excluir');
     }
     
 }

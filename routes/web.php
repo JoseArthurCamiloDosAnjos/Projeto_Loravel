@@ -15,8 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 Route::get('/mostrar', [FuncionariosController::class, 'mostrar'])->name('mostrar');
 
-
-Route::get('/novo', [FuncionariosController::class, 'novo'])->name('novo');
+Route::get('/Novo', [FuncionariosController::class, 'Novo'])->name('Novo');
 
 Route::get('/adicionar', [FuncionariosController::class, 'adicionar'])->name('adicionar');
 
